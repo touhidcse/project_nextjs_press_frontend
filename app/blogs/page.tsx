@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogsPage = () =>{
     return (
-        <div>page</div>
+        <div>Blogs page</div>
     )
 }
 export default BlogsPage;
