@@ -1,8 +1,12 @@
-import React from "react";
+import Recat from "react";
 
-const BlogsPage = () =>{
+const BlogsPage = async ()=>{
+    const posts = await fetch("https://jsonplaceholder.typicode.com/posts")
+    const postData= await posts.json()
+    console.log(postData);
     return (
-        <div>Blogs page</div>
+        <div>AuthorsPage</div>
     )
 }
-export default BlogsPage;
+
+export default BlogsPage
